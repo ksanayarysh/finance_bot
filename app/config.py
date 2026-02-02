@@ -11,4 +11,4 @@ def env(name: str) -> str:
     return val
 
 BOT_TOKEN = env("BOT_TOKEN")
-DATABASE_URL = env("DATABASE_URL")
+DATABASE_URL = env("DATABASE_PUBLIC_URL")
